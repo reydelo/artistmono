@@ -3,8 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Header = () => (
-  <header
-  >
+  <header>
     <div
       style={{
         margin: `0 auto`,
@@ -12,25 +11,27 @@ const Header = () => (
       }}
     >
       <nav>
-        <ul role="menu" style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-        }}>
-          <li role="menuitem">
+        <ul
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            listStyle: "none",
+          }}
+        >
+          <li>
             <Link to={`/`}>Mono</Link>
           </li>
-          <li role="menuitem">
+          <li>
             <Link to={`/bio`}>Bio</Link>
           </li>
-          <li role="menuitem">
+          <li>
             <Link to={`/gallery`}>Gallery</Link>
           </li>
-          <li role="menuitem">
+          <li>
             <Link to={`/travel`}>Travel</Link>
           </li>
-          <li role="menuitem">
+          <li>
             <Link to={`/contact`}>Contact</Link>
           </li>
         </ul>
